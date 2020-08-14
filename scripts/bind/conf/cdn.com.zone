@@ -1,0 +1,19 @@
+$TTL 3600;
+@   IN  SOA     ns.cdn.com. admin.cdn.com. (
+                                                20111205 ;Serial
+                                                28800 ;Refresh
+                                                7200 ;Retry
+                                                3600000 ;Expire
+                                                6400 ;Minimum TTL
+)
+
+;Name Server Information
+@      IN  NS      ns.cdn.com.
+
+;IP address of Name Server
+ns IN  A       172.16.0.18
+
+;A - Record HostName To IP Address
+www     IN  A       172.16.0.11
+web-1   IN  A       172.16.0.50
+web-2   IN  A       172.16.0.17
