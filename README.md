@@ -17,4 +17,6 @@ GLSB Cache:
 ![image](https://github.com/hexlicn/Open-Source-CDN-on-hwc/blob/master/images/cdn-Comb.png)
 
 
-NOTE that from squid access.log, only IE browser go through squid cache, but not work on Chrome or Firefox, still trugling to find out the alternatives.
+
+```diff
+- NOTE that from squid access.log, only IE browser can go through squid cache, but not worked for Chrome or Firefox, still trugling to find out the alternatives.
